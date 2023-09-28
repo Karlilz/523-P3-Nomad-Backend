@@ -5,7 +5,7 @@
 ### About The Project
 "Introducing *APP NAME - Your Gateway to Global Exploration!
 
-Embark on a travel adventure like never before with RoamWorld, your ultimate travel blog app. Whether you're a seasoned explorer or just setting out to see the world, our app is your virtual travel companion. 
+Embark on a travel adventure like never before with APP NAME, your ultimate travel blog app. Whether you're a seasoned explorer or just setting out to see the world, our app is your virtual travel companion. 
 
 Capture the essence of your journeys, connect with fellow travelers, and curate a visual travel diary. APP NAME is your passport to endless adventures, connecting you to cultures, places, and people from around the globe. Start your journey today and let the world become your story!"
 
