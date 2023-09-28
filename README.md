@@ -24,7 +24,7 @@ Capture the essence of your journeys, connect with fellow travelers, and curate 
 
 ---
 ### Initial Wireframe 
-
+![**Project 3 Wireframe**](public/images/project3Wireframe.png)
 
 ### Trello 
 - As a user, I should have the ability to view a welcome screen that encourages me to either login or register.
