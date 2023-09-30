@@ -1,6 +1,6 @@
 const mongoose = require('../database/connection');
 
-const travelUserSchema = new mongoose.Schema({
+const postSchema = new mongoose.Schema({
     title: String,
     username: String,
     location: String,
@@ -8,6 +8,6 @@ const travelUserSchema = new mongoose.Schema({
     caption: String,
 });
 
-const TravelUser = mongoose.model('TravelUser', travelUserSchema);
+const Post = mongoose.model('Post', postSchema);
 
-module.exports = TravelUser;
+module.exports = Post;
