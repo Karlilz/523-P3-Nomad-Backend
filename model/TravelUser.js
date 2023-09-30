@@ -5,7 +5,7 @@ const travelUserSchema = new mongoose.Schema({
     username: String,
     location: String,
     image: String,
-    comment: String,
+    caption: String,
 });
 
 const TravelUser = mongoose.model('TravelUser', travelUserSchema);
