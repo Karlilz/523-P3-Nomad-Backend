@@ -7,6 +7,6 @@ const travelUserSchema = new mongoose.Schema({
     comment: String,
 });
 
-const TravelUser = mongoose.model('Bookmark', travelUserSchema);
+const TravelUser = mongoose.model('TravelUser', travelUserSchema);
 
 module.exports = TravelUser;
