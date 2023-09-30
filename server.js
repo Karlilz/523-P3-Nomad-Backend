@@ -8,7 +8,6 @@ const cors = require("cors");
 const travelBlogController = require ('./controller/travelBlogController')
 
 app.use(express.static("public"));
-// app.set("view engine", "ejs")
 app.use(expressLayouts)
 app.use(cors());
 app.use(express.json());
@@ -17,7 +16,7 @@ app.use(express.urlencoded({ extended:true}));
 app.use('/travelblog', travelBlogController)
 
 app.get("/", (req,res) =>{
-    res.render("home.ejs")
+    res.send("Testing Nom@d App")
 })
 
 app.listen(PORT,() => console.log("Testing Travel Blog", PORT))
