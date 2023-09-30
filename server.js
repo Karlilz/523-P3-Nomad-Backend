@@ -8,7 +8,7 @@ const cors = require("cors");
 const travelBlogController = require ('./controller/travelBlogController')
 
 app.use(express.static("public"));
-app.set("view engine", "ejs")
+// app.set("view engine", "ejs")
 app.use(expressLayouts)
 app.use(cors());
 app.use(express.json());
