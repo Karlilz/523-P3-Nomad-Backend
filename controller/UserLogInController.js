@@ -45,4 +45,7 @@ router.get('/profile', (req,res) => {
     res.json(req.cookies);
 })
 
+router.post('/logout', (req,res) =>{
+    res.cookie('token', '').json('ok');
+})
 module.exports =router;
