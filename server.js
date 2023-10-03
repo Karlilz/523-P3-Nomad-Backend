@@ -11,7 +11,6 @@ const cookieParser = require("cookie-parser");
 
 
 app.use(express.static("public"));
-app.set("view engine", "ejs")
 app.use(expressLayouts)
 app.use(cors({credentials:true,origin:'http://localhost:3000'}));
 app.use(express.json());
@@ -22,4 +21,4 @@ app.use('/travelblog', travelBlogController)
 app.use('/signup',UserLogInController )
 
 
-app.listen(PORT,() => console.log("Testing Travel Blog", PORT))
+app.listen(PORT,() => console.log("Testing Nom@d App", PORT))
