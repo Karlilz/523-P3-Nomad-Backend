@@ -2,21 +2,24 @@ const express = require('express');
 const UserLogIn = require('../model/UserLogIn');
 const router = express.Router();
 const bcrypt = require('bcryptjs')
-constjwt = require('jsonwebtoken');
-const cookieParser = require('cookie-parser');
+const jwt = require('jsonwebtoken');
+const cookieParser= require('cookie-parser');
 
 const salt = bcrypt.genSaltSync(10);
 const secret = 'oweubvcev';
 
 router.post("/signup", async (req,res) =>{
     const{username,password} =req.body;
+    console.log(username,password)
+    console.log(req.body)
     try{
         const userDocument =await UserLogIn.create({
             username,
-            password:bcrypt.hashSync(password,salt)
+            password: bcrypt.hashSync(password,salt)
         });
             res.json(userDocument)
     }catch(e){
+        console.log(e)
         res.status(400).json(e);
     }
       
